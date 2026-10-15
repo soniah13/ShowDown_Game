@@ -1,0 +1,10 @@
+{
+  "name": "zindua-showdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Two-player brain-break game show for the Zindua School hackathon",
+  "scripts": {
+    "dev": "npx --yes serve public -l 3000",
+    "deploy": "npx --yes vercel --prod"
+  }
+}
